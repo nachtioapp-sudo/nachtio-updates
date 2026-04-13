@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "changelog": "- Erstes öffentliches Release\n- Rechnungserstellung für Ferienwohnungen\n- Kurtaxe, Pauschalen, MwSt-Split\n- Automatische Backups\n- Update-System integriert",
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe"
