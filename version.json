@@ -1,6 +1,14 @@
 {
   "version": "0.0.1",
-  "changelog": "- Erstes öffentliches Release\n- Rechnungserstellung für Ferienwohnungen\n- Kurtaxe, Pauschalen, MwSt-Split\n- Automatische Backups\n- Update-System integriert",
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
-  "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe"
+  "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
+  "changelog": [
+    "Erstes öffentliches Release",
+    "Rechnungserstellung für Ferienwohnungen",
+    "Kurtaxe/Gemeindeabgaben, Pauschalen, MwSt-Split",
+    "Automatische Backups",
+    "Update-System integriert",
+	"IBAN-Check eingefügt",
+	"System stabilisiert",
+  ]
 }
