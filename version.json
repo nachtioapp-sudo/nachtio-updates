@@ -3,12 +3,7 @@
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
   "changelog": [
-    "Erstes öffentliches Release",
-    "Rechnungserstellung für Ferienwohnungen",
-    "Kurtaxe/Gemeindeabgaben, Pauschalen, MwSt-Split",
-    "Automatische Backups",
-    "Update-System integriert",
-	"IBAN-Check eingefügt",
-	"System stabilisiert"
+    "MwSt Berechnung gefixt",
+    "PDF-Rechnungen verbessert"	
   ]
 }
