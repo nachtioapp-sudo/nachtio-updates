@@ -1,5 +1,13 @@
 [
 {
+  "Website änderung",
+  "date": "2026-04-30",
+  "changelog": [
+	"Website News Seite hinzugefügt",
+	"Kontaktformular eingebaut"
+  ]
+},
+{
   "version": "0.0.4",
   "date": "2026-04-28",
   "changelog": [
