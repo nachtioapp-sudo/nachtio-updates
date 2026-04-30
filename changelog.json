@@ -1,0 +1,36 @@
+[
+{
+  "version": "0.0.4",
+  "date": "2026-04-28",
+  "changelog": [
+	"Branding Logo aktualisiert",
+	"Demo-Schutz eingebaut",
+    "PDF-Export optimiert",
+    "Infrastruktur Update",	
+	"Performance verbessert"
+  ]
+},
+{
+  "version": "0.0.3",
+  "date": "2026-04-24",
+  "changelog": [
+	"MwSt Berechnung gefixt",
+	"PDF-Rechnungen verbessert"
+  ]
+},
+{
+  "version": "0.0.2",
+  "date": "2026-04-22",
+  "changelog": [
+	"IBAN-Check eingefügt",
+	"System stabilisiert"
+  ]
+},
+{
+  "version": "0.0.1",
+  "date": "2026-04-17", 
+  "changelog": [
+	"BETA-Release"
+  ]
+}
+]
