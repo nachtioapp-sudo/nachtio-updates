@@ -3,6 +3,13 @@
   "version": "Website Update",
   "date": "2026-04-30",
   "changelog": [
+	"Website in einzelne Seite aufgegliedert"
+  ]
+},
+{
+  "version": "Website Update",
+  "date": "2026-04-30",
+  "changelog": [
 	"News Seite hinzugefügt",
 	"Kontaktformular eingebaut"
   ]
