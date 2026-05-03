@@ -14,13 +14,15 @@ echo  Was moechtest du hochladen?
 echo.
 echo  [1] Nachtio-Setup.exe  (neuer Installer)
 echo  [2] version.json       (Versionsnummer + Changelog)
-echo  [3] Alles hochladen
+echo  [3] changelog.json     (News-Seite Website)
+echo  [4] Alles hochladen
 echo.
-set /p choice="Auswahl (1-3): "
+set /p choice="Auswahl (1-4): "
 
 if "%choice%"=="1" goto installer
 if "%choice%"=="2" goto version
-if "%choice%"=="3" goto alles
+if "%choice%"=="3" goto changelog
+if "%choice%"=="4" goto alles
 echo  [FEHLER] Ungueltige Auswahl!
 pause & exit /b 1
 
@@ -38,6 +40,14 @@ echo  [INFO] Lade version.json hoch...
 git rm --cached version.json >nul 2>&1
 git add -f version.json
 git commit -m "Update version.json" --allow-empty
+goto push
+
+:changelog
+echo.
+echo  [INFO] Lade changelog.json hoch...
+git rm --cached changelog.json >nul 2>&1
+git add -f changelog.json
+git commit -m "Update changelog.json" --allow-empty
 goto push
 
 :alles

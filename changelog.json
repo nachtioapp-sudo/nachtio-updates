@@ -1,5 +1,15 @@
 [
 {
+  "version": "0.0.5",
+  "date": "2026-05-03",
+  "changelog": [
+	"Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
+	"Neu: FAQ-Bereich",
+	"Neu: Menü-System",
+	"Verbesserung: PDF-Vorschau überarbeitet (entspricht jetzt dem finalen Dokument)"
+  ]
+},
+{
   "version": "Website Update",
   "date": "2026-05-01",
   "changelog": [
