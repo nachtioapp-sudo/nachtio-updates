@@ -1,11 +1,8 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
   "changelog": [
-	"Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
-	"Neu: FAQ-Bereich",
-	"Neu: Menü-System",
-	"Verbesserung: PDF-Vorschau überarbeitet (entspricht jetzt dem finalen Dokument)"
+	"Verbesserung: Datenbank migration abgeschlossen"
   ]
 }

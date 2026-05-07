@@ -3,6 +3,13 @@
   "version": "0.0.5",
   "date": "2026-05-03",
   "changelog": [
+	"Verbesserung: Datenbank migration abgeschlossen"
+  ]
+},
+{
+  "version": "0.0.5",
+  "date": "2026-05-03",
+  "changelog": [
 	"Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
 	"Neu: FAQ-Bereich",
 	"Neu: Menü-System",
