@@ -1,8 +1,8 @@
 {
-  "version": "0.0.6",
+  "version": "0.0.7",
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
   "changelog": [
-	"Verbesserung: Datenbank migration abgeschlossen"
+	"Interner Update Test"
   ]
 }
