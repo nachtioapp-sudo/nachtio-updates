@@ -1,5 +1,12 @@
 [
 {
+  "version": "Website Update",
+  "date": "2026-06-21",
+  "changelog": [
+	"Website überarbeitet"
+  ]
+},
+{
   "version": "0.0.6",
   "date": "2026-05-07",
   "changelog": [
