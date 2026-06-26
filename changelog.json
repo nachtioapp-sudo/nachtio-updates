@@ -1,5 +1,23 @@
 [
 {
+  "version": "1.0.0",
+  "date": "2026-06-26",
+  "changelog": [
+    "Erster öffentlicher Release von Nachtio Abrechnung",
+	"100 % lokale Datenhaltung – keine Cloud, alle Daten bleiben auf Ihrem Windows-PC",
+    "GoBD-konforme Rechnungen, Angebote und Stornorechnungen erstellen",
+    "§14 UStG (Regelbesteuerung) und §19 UStG (Kleinunternehmer) vollständig unterstützt",
+    "Tourismusabgabe mit GdB-Stufen, Begleitpersonen, Kurpatienten und Geschäftsreisenden",
+    "Quartalsabrechnung als PDF mit steuerlicher Aufschlüsselung",
+    "Einrichtungsassistent mit Schritt-für-Schritt Anleitung",
+    "Pauschalen (Endreinigung, Wäsche u.a.) mit korrektem MwSt-Satz (7% / 19%)",
+    "Eigenes Firmenlogo frei auf der Rechnung positionieren",
+    "Automatisches Backup alle 5 Minuten lokal und ins Dokumente-Verzeichnis",
+    "Automatische Updates - Daten und Einstellungen bleiben erhalten",
+    "14-tägige Testversion mit vollem Funktionsumfang — keine Kreditkarte nötig"
+  ]
+},
+{
   "version": "Website Update",
   "date": "2026-06-21",
   "changelog": [
