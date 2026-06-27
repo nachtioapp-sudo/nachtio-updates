@@ -1,5 +1,12 @@
 [
 {
+  "version": "1.0.1",
+  "date": "2026-06-27",
+  "changelog": [
+    "Hotfix: PDF Druckfunktion gefixt"
+  ]
+},
+{
   "version": "1.0.0",
   "date": "2026-06-26",
   "changelog": [
