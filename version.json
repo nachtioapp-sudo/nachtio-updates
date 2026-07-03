@@ -1,8 +1,10 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
   "changelog": [
-    "Hotfix: PDF Druckfunktion gefixt"
+    "IBAN auf Rechnungen in 4er Blöcke unterteilt",
+	"Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
+	"Anzahlungsmodul in der Rechnungserstellung verbessert"
   ]
 }

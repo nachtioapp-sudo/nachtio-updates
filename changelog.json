@@ -1,13 +1,22 @@
 [
 {
-  "version": "1.0.1",
+  "version": "Update: 1.0.2",
+  "date": "2026-07-03",
+  "changelog": [
+    "IBAN auf Rechnungen in 4er Blöcke unterteilt",
+	"Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
+	"Anzahlungsmodul in der Rechnungserstellung verbessert"
+  ]
+},
+{
+  "version": "Update: 1.0.1",
   "date": "2026-06-27",
   "changelog": [
     "Hotfix: PDF Druckfunktion gefixt"
   ]
 },
 {
-  "version": "1.0.0",
+  "version": "Release: 1.0.0",
   "date": "2026-06-26",
   "changelog": [
     "Erster öffentlicher Release von Nachtio Abrechnung",
@@ -32,14 +41,14 @@
   ]
 },
 {
-  "version": "0.0.6",
+  "version": "Update: 0.0.6",
   "date": "2026-05-07",
   "changelog": [
 	"Verbesserung: Datenbank migration abgeschlossen"
   ]
 },
 {
-  "version": "0.0.5",
+  "version": "Update: 0.0.5",
   "date": "2026-05-03",
   "changelog": [
 	"Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
@@ -64,7 +73,7 @@
   ]
 },
 {
-  "version": "0.0.4",
+  "version": "Update: 0.0.4",
   "date": "2026-04-28",
   "changelog": [
 	"Branding Logo aktualisiert",
@@ -75,7 +84,7 @@
   ]
 },
 {
-  "version": "0.0.3",
+  "version": "Update: 0.0.3",
   "date": "2026-04-24",
   "changelog": [
 	"MwSt Berechnung gefixt",
@@ -83,7 +92,7 @@
   ]
 },
 {
-  "version": "0.0.2",
+  "version": "Update: 0.0.2",
   "date": "2026-04-22",
   "changelog": [
 	"IBAN-Check eingefügt",
@@ -91,7 +100,7 @@
   ]
 },
 {
-  "version": "0.0.1",
+  "version": "Update: 0.0.1",
   "date": "2026-04-17", 
   "changelog": [
 	"BETA-Release"
