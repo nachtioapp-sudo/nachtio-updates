@@ -1,5 +1,15 @@
 [
 {
+  "version": "Update: 1.0.3",
+  "date": "2026-07-03",
+  "changelog": [
+    "Hotfix: PDF Drucken gefixt",
+    "IBAN auf Rechnungen in 4er Blöcke unterteilt",
+	"Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
+	"Anzahlungsmodul in der Rechnungserstellung verbessert"
+  ]
+},
+{
   "version": "Update: 1.0.2",
   "date": "2026-07-03",
   "changelog": [
