@@ -1,5 +1,19 @@
 [
 {
+  "version": "Update: 1.0.4",
+  "date": "2026-07-09",
+  "changelog": [
+    "PDF Drucken ist nun intern möglich, keine externe PDF-viewer Seite mehr"
+  ]
+},
+{
+  "version": "Website Update",
+  "date": "2026-07-06",
+  "changelog": [
+	"Neu: Blog Seite hinzugefügt"
+  ]
+},
+{
   "version": "Update: 1.0.3",
   "date": "2026-07-03",
   "changelog": [

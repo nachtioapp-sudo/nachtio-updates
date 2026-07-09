@@ -1,11 +1,8 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
   "changelog": [
-    "Hotfix: PDF Drucken gefixt",
-    "IBAN auf Rechnungen in 4er Blöcke unterteilt",
-	"Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
-	"Anzahlungsmodul in der Rechnungserstellung verbessert"
+    "PDF Drucken ist nun intern möglich, keine externe PDF-viewer Seite mehr"
   ]
 }
