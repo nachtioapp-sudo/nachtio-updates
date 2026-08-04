@@ -5,7 +5,7 @@
   "changelog": [
     "🆕 NEU",
     "Teilstorno — einzelne Angaben nachträglich korrigieren, ohne komplette Stornierung",
-    "Rechnungen lassen sich jetzt nachträglich bearbeiten, inkl. Vergleich vor der Bestätigung",
+    "Rechnungen lassen sich jetzt nachträglich über eine GoBD-konforme Stornobearbeitung korrigieren",
     "Zahlungsstatus & Anzahlung direkt an der Rechnung vermerken",
     "Quartalsbericht ordnet Zahlungen jetzt korrekt nach Zahlungsdatum zu, statt nach Rechnungsdatum (EÜR-konform, § 11 EStG)",
     "Neuer, einheitlicher Kalender mit farbiger Anzeige von Zeitraum und Anzahlungsdatum",
