@@ -1,5 +1,35 @@
 [
 {
+  "version": "Update: 1.0.5",
+  "date": "2026-08-04",
+  "changelog": [
+    "🆕 NEU",
+    "Teilstorno — einzelne Angaben nachträglich korrigieren, ohne komplette Stornierung",
+    "Rechnungen lassen sich jetzt nachträglich bearbeiten, inkl. Vergleich vor der Bestätigung",
+    "Zahlungsstatus & Anzahlung direkt an der Rechnung vermerken",
+    "Quartalsbericht ordnet Zahlungen jetzt korrekt nach Zahlungsdatum zu, statt nach Rechnungsdatum (EÜR-konform, § 11 EStG)",
+    "Neuer, einheitlicher Kalender mit farbiger Anzeige von Zeitraum und Anzahlungsdatum",
+    "Rechnungsnummer im Quartalsbericht öffnet direkt die PDF-Vorschau",
+    "🔧 VERBESSERUNGEN",
+    "Quartalsbericht zeigt bei Anzahlungen jetzt auch die zugehörige Wohnung",
+    "Programm startet jetzt maximiert",
+    "Neues Intro-Video beim Programmstart",
+    "Straße und Ort bei der Gastadresse sind nicht mehr zwingend erforderlich",
+    "Logo-Upload per Drag & Drop funktioniert jetzt zuverlässig",
+    "Einrichtungsassistent ist jetzt an jedem Schritt schließbar",
+    "🐛 FEHLERBEHEBUNGEN",
+    "Mehrere Anzeigefehler im Einrichtungsassistenten behoben",
+    "Logo-Editor zeigt hochgeladenes Logo jetzt korrekt an"
+  ]
+},
+{
+  "version": "Website Update",
+  "date": "2026-08-04",
+  "changelog": [
+	"Seite Funktionen ergänzt"
+  ]
+},
+{
   "version": "Update: 1.0.4",
   "date": "2026-07-09",
   "changelog": [
