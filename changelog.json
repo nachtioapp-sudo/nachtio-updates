@@ -1,5 +1,28 @@
 [
 {
+  "version": "Website Update",
+  "date": "2026-08-08",
+  "changelog": [
+    "Seite Funktionen: Neue Funktionen iCal (Kalender) und CSV-Export"
+  ]
+},
+{
+  "version": "Update: 1.0.6",
+  "date": "2026-08-08",
+  "changelog": [
+    "🆕 NEU",
+    "Kalender-Import (iCal): Belegungskalender von Buchungsplattformen wie Airbnb, Booking.com oder Tourismusverbänden pro Wohnung einbinden und in einer übersichtlichen Monatsansicht sehen",
+    "Automatische Warnung bei möglichen Doppelbuchungen zwischen mehreren Kalenderquellen",
+    "CSV-Export für Quartalsbericht und Rechnungsliste",
+    "🔧 VERBESSERUNGEN",
+    "Bereits im Kalender eingetragene Buchungen lassen sich bei der Rechnungserstellung mit einem Klick übernehmen",
+    "Belegungsstatus wird jetzt auch direkt im Kalender der Rechnungserstellung farblich angezeigt",
+    "Kalenderquellen synchronisieren sich automatisch beim Programmstart im Hintergrund, zusätzlich jederzeit per Knopfdruck möglich",
+    "🐛 FEHLERBEHEBUNGEN",
+    "PDF-Vorschau und Drucken bei einzelnen Rechnungen sowie im Quartalsbericht behoben (konnte in bestimmten Fällen fehlerhaft mit mehreren leeren Seiten angezeigt werden)"
+  ]
+},
+{
   "version": "Update: 1.0.5",
   "date": "2026-08-04",
   "changelog": [
@@ -26,7 +49,7 @@
   "version": "Website Update",
   "date": "2026-08-04",
   "changelog": [
-	"Seite Funktionen ergänzt"
+    "Seite Funktionen ergänzt"
   ]
 },
 {
@@ -40,7 +63,7 @@
   "version": "Website Update",
   "date": "2026-07-06",
   "changelog": [
-	"Neu: Blog Seite hinzugefügt"
+    "Neu: Blog Seite hinzugefügt"
   ]
 },
 {
@@ -49,8 +72,8 @@
   "changelog": [
     "Hotfix: PDF Drucken gefixt",
     "IBAN auf Rechnungen in 4er Blöcke unterteilt",
-	"Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
-	"Anzahlungsmodul in der Rechnungserstellung verbessert"
+    "Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
+    "Anzahlungsmodul in der Rechnungserstellung verbessert"
   ]
 },
 {
@@ -58,8 +81,8 @@
   "date": "2026-07-03",
   "changelog": [
     "IBAN auf Rechnungen in 4er Blöcke unterteilt",
-	"Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
-	"Anzahlungsmodul in der Rechnungserstellung verbessert"
+    "Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
+    "Anzahlungsmodul in der Rechnungserstellung verbessert"
   ]
 },
 {
@@ -74,7 +97,7 @@
   "date": "2026-06-26",
   "changelog": [
     "Erster öffentlicher Release von Nachtio Abrechnung",
-	"100 % lokale Datenhaltung – keine Cloud, alle Daten bleiben auf Ihrem Windows-PC",
+    "100 % lokale Datenhaltung – keine Cloud, alle Daten bleiben auf Ihrem Windows-PC",
     "GoBD-konforme Rechnungen, Angebote und Stornorechnungen erstellen",
     "§14 UStG (Regelbesteuerung) und §19 UStG (Kleinunternehmer) vollständig unterstützt",
     "Tourismusabgabe mit GdB-Stufen, Begleitpersonen, Kurpatienten und Geschäftsreisenden",
@@ -91,73 +114,73 @@
   "version": "Website Update",
   "date": "2026-06-21",
   "changelog": [
-	"Website überarbeitet"
+    "Website überarbeitet"
   ]
 },
 {
   "version": "Update: 0.0.6",
   "date": "2026-05-07",
   "changelog": [
-	"Verbesserung: Datenbank migration abgeschlossen"
+    "Verbesserung: Datenbank migration abgeschlossen"
   ]
 },
 {
   "version": "Update: 0.0.5",
   "date": "2026-05-03",
   "changelog": [
-	"Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
-	"Neu: FAQ-Bereich",
-	"Neu: Menü-System",
-	"Verbesserung: PDF-Vorschau überarbeitet (entspricht jetzt dem finalen Dokument)"
+    "Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
+    "Neu: FAQ-Bereich",
+    "Neu: Menü-System",
+    "Verbesserung: PDF-Vorschau überarbeitet (entspricht jetzt dem finalen Dokument)"
   ]
 },
 {
   "version": "Website Update",
   "date": "2026-05-01",
   "changelog": [
-	"Website in einzelne Seite aufgegliedert"
+    "Website in einzelne Seite aufgegliedert"
   ]
 },
 {
   "version": "Website Update",
   "date": "2026-04-30",
   "changelog": [
-	"News Seite hinzugefügt",
-	"Kontaktformular eingebaut"
+    "News Seite hinzugefügt",
+    "Kontaktformular eingebaut"
   ]
 },
 {
   "version": "Update: 0.0.4",
   "date": "2026-04-28",
   "changelog": [
-	"Branding Logo aktualisiert",
-	"Demo-Schutz eingebaut",
+    "Branding Logo aktualisiert",
+    "Demo-Schutz eingebaut",
     "PDF-Export optimiert",
-    "Infrastruktur Update",	
-	"Performance verbessert"
+    "Infrastruktur Update",
+    "Performance verbessert"
   ]
 },
 {
   "version": "Update: 0.0.3",
   "date": "2026-04-24",
   "changelog": [
-	"MwSt Berechnung gefixt",
-	"PDF-Rechnungen verbessert"
+    "MwSt Berechnung gefixt",
+    "PDF-Rechnungen verbessert"
   ]
 },
 {
   "version": "Update: 0.0.2",
   "date": "2026-04-22",
   "changelog": [
-	"IBAN-Check eingefügt",
-	"System stabilisiert"
+    "IBAN-Check eingefügt",
+    "System stabilisiert"
   ]
 },
 {
   "version": "Update: 0.0.1",
-  "date": "2026-04-17", 
+  "date": "2026-04-17",
   "changelog": [
-	"BETA-Release"
+    "BETA-Release"
   ]
 }
 ]

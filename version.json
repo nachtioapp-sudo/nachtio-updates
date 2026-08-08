@@ -4,21 +4,14 @@
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
   "changelog": [
     "🆕 NEU",
-    "Teilstorno — einzelne Angaben nachträglich korrigieren, ohne komplette Stornierung",
-    "Rechnungen lassen sich jetzt nachträglich über eine GoBD-konforme Stornobearbeitung korrigieren",
-    "Zahlungsstatus & Anzahlung direkt an der Rechnung vermerken",
-    "Quartalsbericht ordnet Zahlungen jetzt korrekt nach Zahlungsdatum zu, statt nach Rechnungsdatum (EÜR-konform, § 11 EStG)",
-    "Neuer, einheitlicher Kalender mit farbiger Anzeige von Zeitraum und Anzahlungsdatum",
-    "Rechnungsnummer im Quartalsbericht öffnet direkt die PDF-Vorschau",
+    "Kalender-Import (iCal): Belegungskalender von Buchungsplattformen wie Airbnb, Booking.com oder Tourismusverbänden pro Wohnung einbinden und in einer übersichtlichen Monatsansicht sehen",
+    "Automatische Warnung bei möglichen Doppelbuchungen zwischen mehreren Kalenderquellen",
+    "CSV-Export für Quartalsbericht und Rechnungsliste",
     "🔧 VERBESSERUNGEN",
-    "Quartalsbericht zeigt bei Anzahlungen jetzt auch die zugehörige Wohnung",
-    "Programm startet jetzt maximiert",
-    "Neues Intro-Video beim Programmstart",
-    "Straße und Ort bei der Gastadresse sind nicht mehr zwingend erforderlich",
-    "Logo-Upload per Drag & Drop funktioniert jetzt zuverlässig",
-    "Einrichtungsassistent ist jetzt an jedem Schritt schließbar",
+    "Bereits im Kalender eingetragene Buchungen lassen sich bei der Rechnungserstellung mit einem Klick übernehmen",
+    "Belegungsstatus wird jetzt auch direkt im Kalender der Rechnungserstellung farblich angezeigt",
+    "Kalenderquellen synchronisieren sich automatisch beim Programmstart im Hintergrund, zusätzlich jederzeit per Knopfdruck möglich",
     "🐛 FEHLERBEHEBUNGEN",
-    "Mehrere Anzeigefehler im Einrichtungsassistenten behoben",
-    "Logo-Editor zeigt hochgeladenes Logo jetzt korrekt an"
+    "PDF-Vorschau und Drucken bei einzelnen Rechnungen sowie im Quartalsbericht behoben (konnte in bestimmten Fällen fehlerhaft mit mehreren leeren Seiten angezeigt werden)"
   ]
 }
