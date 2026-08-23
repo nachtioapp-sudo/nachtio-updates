@@ -1,17 +1,22 @@
 {
-  "version": "1.0.6",
+  "version": "1.1.0",
   "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
   "changelog": [
     "🆕 NEU",
-    "Kalender-Import (iCal): Belegungskalender von Buchungsplattformen wie Airbnb, Booking.com oder Tourismusverbänden pro Wohnung einbinden und in einer übersichtlichen Monatsansicht sehen",
-    "Automatische Warnung bei möglichen Doppelbuchungen zwischen mehreren Kalenderquellen",
-    "CSV-Export für Quartalsbericht und Rechnungsliste",
+    "E-Rechnung (ZUGFeRD): Nachtio erstellt jetzt bei jeder fixierten Rechnung automatisch zusätzlich eine strukturierte E-Rechnung nach dem europäischen EN16931-Standard — mehrfach mit unabhängigen Prüftools validiert",
+    "Firma / Geschäftsreisender: Firmenname und USt-IdNr. des Gastes lassen sich direkt in der Rechnungserstellung hinterlegen, für B2B-Rechnungen und Steuererklärungen",
     "🔧 VERBESSERUNGEN",
-    "Bereits im Kalender eingetragene Buchungen lassen sich bei der Rechnungserstellung mit einem Klick übernehmen",
-    "Belegungsstatus wird jetzt auch direkt im Kalender der Rechnungserstellung farblich angezeigt",
-    "Kalenderquellen synchronisieren sich automatisch beim Programmstart im Hintergrund, zusätzlich jederzeit per Knopfdruck möglich",
+    "Rechnungen öffnen aus der Liste jetzt spürbar schneller",
+    "Kalender bei Anzahlung und beim Erzeugen einer Rechnung sind jetzt immer sichtbar, kein zusätzlicher Klick mehr nötig",
+    "„Fixieren“ heißt jetzt „Rechnung erzeugen“",
+    "USt-IdNr.-Feld verhindert jetzt Tippfehler durch ungültige Zeichen",
+    "Firma/Geschäftsreisender-Bereich in der Rechnungserstellung übersichtlicher gruppiert",
+    "Fehlende Adressdaten (eigene oder die des Gastes) lassen sich jetzt in einem gemeinsamen Fenster direkt nachtragen",
     "🐛 FEHLERBEHEBUNGEN",
-    "PDF-Vorschau und Drucken bei einzelnen Rechnungen sowie im Quartalsbericht behoben (konnte in bestimmten Fällen fehlerhaft mit mehreren leeren Seiten angezeigt werden)"
+    "Verschiedene Rundungsfälle bei E-Rechnungen mit mehreren Steuersätzen behoben",
+    "Beim Stornieren wurden Dateien in seltenen Fällen nicht korrekt in die richtigen Ordner verschoben",
+    "Ein Fehler, bei dem eine erneut stornierte Stornogebühr-Rechnung spurlos aus der Rechnungsliste verschwinden konnte, behoben",
+    "MwSt-Anzeige bei Stornogebühr-Rechnungen bezieht sich jetzt korrekt auf den tatsächlich verbleibenden Betrag"
   ]
 }

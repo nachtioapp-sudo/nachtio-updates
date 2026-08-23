@@ -1,186 +1,214 @@
 [
-{
-  "version": "Website Update",
-  "date": "2026-08-08",
-  "changelog": [
-    "Seite Funktionen: Neue Funktionen iCal (Kalender) und CSV-Export"
-  ]
-},
-{
-  "version": "Update: 1.0.6",
-  "date": "2026-08-08",
-  "changelog": [
-    "🆕 NEU",
-    "Kalender-Import (iCal): Belegungskalender von Buchungsplattformen wie Airbnb, Booking.com oder Tourismusverbänden pro Wohnung einbinden und in einer übersichtlichen Monatsansicht sehen",
-    "Automatische Warnung bei möglichen Doppelbuchungen zwischen mehreren Kalenderquellen",
-    "CSV-Export für Quartalsbericht und Rechnungsliste",
-    "🔧 VERBESSERUNGEN",
-    "Bereits im Kalender eingetragene Buchungen lassen sich bei der Rechnungserstellung mit einem Klick übernehmen",
-    "Belegungsstatus wird jetzt auch direkt im Kalender der Rechnungserstellung farblich angezeigt",
-    "Kalenderquellen synchronisieren sich automatisch beim Programmstart im Hintergrund, zusätzlich jederzeit per Knopfdruck möglich",
-    "🐛 FEHLERBEHEBUNGEN",
-    "PDF-Vorschau und Drucken bei einzelnen Rechnungen sowie im Quartalsbericht behoben (konnte in bestimmten Fällen fehlerhaft mit mehreren leeren Seiten angezeigt werden)"
-  ]
-},
-{
-  "version": "Update: 1.0.5",
-  "date": "2026-08-04",
-  "changelog": [
-    "🆕 NEU",
-    "Teilstorno — einzelne Angaben nachträglich korrigieren, ohne komplette Stornierung",
-    "Rechnungen lassen sich jetzt nachträglich über eine GoBD-konforme Stornobearbeitung korrigieren",
-    "Zahlungsstatus & Anzahlung direkt an der Rechnung vermerken",
-    "Quartalsbericht ordnet Zahlungen jetzt korrekt nach Zahlungsdatum zu, statt nach Rechnungsdatum (EÜR-konform, § 11 EStG)",
-    "Neuer, einheitlicher Kalender mit farbiger Anzeige von Zeitraum und Anzahlungsdatum",
-    "Rechnungsnummer im Quartalsbericht öffnet direkt die PDF-Vorschau",
-    "🔧 VERBESSERUNGEN",
-    "Quartalsbericht zeigt bei Anzahlungen jetzt auch die zugehörige Wohnung",
-    "Programm startet jetzt maximiert",
-    "Neues Intro-Video beim Programmstart",
-    "Straße und Ort bei der Gastadresse sind nicht mehr zwingend erforderlich",
-    "Logo-Upload per Drag & Drop funktioniert jetzt zuverlässig",
-    "Einrichtungsassistent ist jetzt an jedem Schritt schließbar",
-    "🐛 FEHLERBEHEBUNGEN",
-    "Mehrere Anzeigefehler im Einrichtungsassistenten behoben",
-    "Logo-Editor zeigt hochgeladenes Logo jetzt korrekt an"
-  ]
-},
-{
-  "version": "Website Update",
-  "date": "2026-08-04",
-  "changelog": [
-    "Seite Funktionen ergänzt"
-  ]
-},
-{
-  "version": "Update: 1.0.4",
-  "date": "2026-07-09",
-  "changelog": [
-    "PDF Drucken ist nun intern möglich, keine externe PDF-viewer Seite mehr"
-  ]
-},
-{
-  "version": "Website Update",
-  "date": "2026-07-06",
-  "changelog": [
-    "Neu: Blog Seite hinzugefügt"
-  ]
-},
-{
-  "version": "Update: 1.0.3",
-  "date": "2026-07-03",
-  "changelog": [
-    "Hotfix: PDF Drucken gefixt",
-    "IBAN auf Rechnungen in 4er Blöcke unterteilt",
-    "Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
-    "Anzahlungsmodul in der Rechnungserstellung verbessert"
-  ]
-},
-{
-  "version": "Update: 1.0.2",
-  "date": "2026-07-03",
-  "changelog": [
-    "IBAN auf Rechnungen in 4er Blöcke unterteilt",
-    "Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
-    "Anzahlungsmodul in der Rechnungserstellung verbessert"
-  ]
-},
-{
-  "version": "Update: 1.0.1",
-  "date": "2026-06-27",
-  "changelog": [
-    "Hotfix: PDF Druckfunktion gefixt"
-  ]
-},
-{
-  "version": "Release: 1.0.0",
-  "date": "2026-06-26",
-  "changelog": [
-    "Erster öffentlicher Release von Nachtio Abrechnung",
-    "100 % lokale Datenhaltung – keine Cloud, alle Daten bleiben auf Ihrem Windows-PC",
-    "GoBD-konforme Rechnungen, Angebote und Stornorechnungen erstellen",
-    "§14 UStG (Regelbesteuerung) und §19 UStG (Kleinunternehmer) vollständig unterstützt",
-    "Tourismusabgabe mit GdB-Stufen, Begleitpersonen, Kurpatienten und Geschäftsreisenden",
-    "Quartalsabrechnung als PDF mit steuerlicher Aufschlüsselung",
-    "Einrichtungsassistent mit Schritt-für-Schritt Anleitung",
-    "Pauschalen (Endreinigung, Wäsche u.a.) mit korrektem MwSt-Satz (7% / 19%)",
-    "Eigenes Firmenlogo frei auf der Rechnung positionieren",
-    "Automatisches Backup alle 5 Minuten lokal und ins Dokumente-Verzeichnis",
-    "Automatische Updates - Daten und Einstellungen bleiben erhalten",
-    "14-tägige Testversion mit vollem Funktionsumfang — keine Kreditkarte nötig"
-  ]
-},
-{
-  "version": "Website Update",
-  "date": "2026-06-21",
-  "changelog": [
-    "Website überarbeitet"
-  ]
-},
-{
-  "version": "Update: 0.0.6",
-  "date": "2026-05-07",
-  "changelog": [
-    "Verbesserung: Datenbank migration abgeschlossen"
-  ]
-},
-{
-  "version": "Update: 0.0.5",
-  "date": "2026-05-03",
-  "changelog": [
-    "Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
-    "Neu: FAQ-Bereich",
-    "Neu: Menü-System",
-    "Verbesserung: PDF-Vorschau überarbeitet (entspricht jetzt dem finalen Dokument)"
-  ]
-},
-{
-  "version": "Website Update",
-  "date": "2026-05-01",
-  "changelog": [
-    "Website in einzelne Seite aufgegliedert"
-  ]
-},
-{
-  "version": "Website Update",
-  "date": "2026-04-30",
-  "changelog": [
-    "News Seite hinzugefügt",
-    "Kontaktformular eingebaut"
-  ]
-},
-{
-  "version": "Update: 0.0.4",
-  "date": "2026-04-28",
-  "changelog": [
-    "Branding Logo aktualisiert",
-    "Demo-Schutz eingebaut",
-    "PDF-Export optimiert",
-    "Infrastruktur Update",
-    "Performance verbessert"
-  ]
-},
-{
-  "version": "Update: 0.0.3",
-  "date": "2026-04-24",
-  "changelog": [
-    "MwSt Berechnung gefixt",
-    "PDF-Rechnungen verbessert"
-  ]
-},
-{
-  "version": "Update: 0.0.2",
-  "date": "2026-04-22",
-  "changelog": [
-    "IBAN-Check eingefügt",
-    "System stabilisiert"
-  ]
-},
-{
-  "version": "Update: 0.0.1",
-  "date": "2026-04-17",
-  "changelog": [
-    "BETA-Release"
-  ]
-}
+  {
+    "version": "Website Update",
+    "date": "2026-08-23",
+    "changelog": [
+      "Startseite und Seite Funktionen überarbeitet"
+    ]
+  },
+  {
+    "version": "Update: 1.1.0",
+    "date": "2026-08-23",
+    "changelog": [
+      "🆕 NEU",
+      "E-Rechnung (ZUGFeRD): Nachtio erstellt jetzt bei jeder fixierten Rechnung automatisch zusätzlich eine strukturierte E-Rechnung nach dem europäischen EN16931-Standard — mehrfach mit unabhängigen Prüftools validiert",
+      "Firma / Geschäftsreisender: Firmenname und USt-IdNr. des Gastes lassen sich direkt in der Rechnungserstellung hinterlegen, für B2B-Rechnungen und Steuererklärungen",
+      "🔧 VERBESSERUNGEN",
+      "Rechnungen öffnen aus der Liste jetzt spürbar schneller",
+      "Kalender bei Anzahlung und beim Erzeugen einer Rechnung sind jetzt immer sichtbar, kein zusätzlicher Klick mehr nötig",
+      "„Fixieren“ heißt jetzt „Rechnung erzeugen“",
+      "USt-IdNr.-Feld verhindert jetzt Tippfehler durch ungültige Zeichen",
+      "Firma/Geschäftsreisender-Bereich in der Rechnungserstellung übersichtlicher gruppiert",
+      "Fehlende Adressdaten (eigene oder die des Gastes) lassen sich jetzt in einem gemeinsamen Fenster direkt nachtragen",
+      "🐛 FEHLERBEHEBUNGEN",
+      "Verschiedene Rundungsfälle bei E-Rechnungen mit mehreren Steuersätzen behoben",
+      "Beim Stornieren wurden Dateien in seltenen Fällen nicht korrekt in die richtigen Ordner verschoben",
+      "Ein Fehler, bei dem eine erneut stornierte Stornogebühr-Rechnung spurlos aus der Rechnungsliste verschwinden konnte, behoben",
+      "MwSt-Anzeige bei Stornogebühr-Rechnungen bezieht sich jetzt korrekt auf den tatsächlich verbleibenden Betrag"
+    ]
+  },
+  {
+    "version": "Website Update",
+    "date": "2026-08-08",
+    "changelog": [
+      "Seite Funktionen: Neue Funktionen iCal (Kalender) und CSV-Export"
+    ]
+  },
+  {
+    "version": "Update: 1.0.6",
+    "date": "2026-08-08",
+    "changelog": [
+      "🆕 NEU",
+      "Kalender-Import (iCal): Belegungskalender von Buchungsplattformen wie Airbnb, Booking.com oder Tourismusverbänden pro Wohnung einbinden und in einer übersichtlichen Monatsansicht sehen",
+      "Automatische Warnung bei möglichen Doppelbuchungen zwischen mehreren Kalenderquellen",
+      "CSV-Export für Quartalsbericht und Rechnungsliste",
+      "🔧 VERBESSERUNGEN",
+      "Bereits im Kalender eingetragene Buchungen lassen sich bei der Rechnungserstellung mit einem Klick übernehmen",
+      "Belegungsstatus wird jetzt auch direkt im Kalender der Rechnungserstellung farblich angezeigt",
+      "Kalenderquellen synchronisieren sich automatisch beim Programmstart im Hintergrund, zusätzlich jederzeit per Knopfdruck möglich",
+      "🐛 FEHLERBEHEBUNGEN",
+      "PDF-Vorschau und Drucken bei einzelnen Rechnungen sowie im Quartalsbericht behoben (konnte in bestimmten Fällen fehlerhaft mit mehreren leeren Seiten angezeigt werden)"
+    ]
+  },
+  {
+    "version": "Update: 1.0.5",
+    "date": "2026-08-04",
+    "changelog": [
+      "🆕 NEU",
+      "Teilstorno — einzelne Angaben nachträglich korrigieren, ohne komplette Stornierung",
+      "Rechnungen lassen sich jetzt nachträglich über eine GoBD-konforme Stornobearbeitung korrigieren",
+      "Zahlungsstatus & Anzahlung direkt an der Rechnung vermerken",
+      "Quartalsbericht ordnet Zahlungen jetzt korrekt nach Zahlungsdatum zu, statt nach Rechnungsdatum (EÜR-konform, § 11 EStG)",
+      "Neuer, einheitlicher Kalender mit farbiger Anzeige von Zeitraum und Anzahlungsdatum",
+      "Rechnungsnummer im Quartalsbericht öffnet direkt die PDF-Vorschau",
+      "🔧 VERBESSERUNGEN",
+      "Quartalsbericht zeigt bei Anzahlungen jetzt auch die zugehörige Wohnung",
+      "Programm startet jetzt maximiert",
+      "Neues Intro-Video beim Programmstart",
+      "Straße und Ort bei der Gastadresse sind nicht mehr zwingend erforderlich",
+      "Logo-Upload per Drag & Drop funktioniert jetzt zuverlässig",
+      "Einrichtungsassistent ist jetzt an jedem Schritt schließbar",
+      "🐛 FEHLERBEHEBUNGEN",
+      "Mehrere Anzeigefehler im Einrichtungsassistenten behoben",
+      "Logo-Editor zeigt hochgeladenes Logo jetzt korrekt an"
+    ]
+  },
+  {
+    "version": "Website Update",
+    "date": "2026-08-04",
+    "changelog": [
+      "Seite Funktionen ergänzt"
+    ]
+  },
+  {
+    "version": "Update: 1.0.4",
+    "date": "2026-07-09",
+    "changelog": [
+      "PDF Drucken ist nun intern möglich, keine externe PDF-viewer Seite mehr"
+    ]
+  },
+  {
+    "version": "Website Update",
+    "date": "2026-07-06",
+    "changelog": [
+      "Neu: Blog Seite hinzugefügt"
+    ]
+  },
+  {
+    "version": "Update: 1.0.3",
+    "date": "2026-07-03",
+    "changelog": [
+      "Hotfix: PDF Drucken gefixt",
+      "IBAN auf Rechnungen in 4er Blöcke unterteilt",
+      "Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
+      "Anzahlungsmodul in der Rechnungserstellung verbessert"
+    ]
+  },
+  {
+    "version": "Update: 1.0.2",
+    "date": "2026-07-03",
+    "changelog": [
+      "IBAN auf Rechnungen in 4er Blöcke unterteilt",
+      "Eigene Zeile für Firmennamen in Einrichtungssystem hinzugefügt",
+      "Anzahlungsmodul in der Rechnungserstellung verbessert"
+    ]
+  },
+  {
+    "version": "Update: 1.0.1",
+    "date": "2026-06-27",
+    "changelog": [
+      "Hotfix: PDF Druckfunktion gefixt"
+    ]
+  },
+  {
+    "version": "Release: 1.0.0",
+    "date": "2026-06-26",
+    "changelog": [
+      "Erster öffentlicher Release von Nachtio Abrechnung",
+      "100 % lokale Datenhaltung – keine Cloud, alle Daten bleiben auf Ihrem Windows-PC",
+      "GoBD-konforme Rechnungen, Angebote und Stornorechnungen erstellen",
+      "§14 UStG (Regelbesteuerung) und §19 UStG (Kleinunternehmer) vollständig unterstützt",
+      "Tourismusabgabe mit GdB-Stufen, Begleitpersonen, Kurpatienten und Geschäftsreisenden",
+      "Quartalsabrechnung als PDF mit steuerlicher Aufschlüsselung",
+      "Einrichtungsassistent mit Schritt-für-Schritt Anleitung",
+      "Pauschalen (Endreinigung, Wäsche u.a.) mit korrektem MwSt-Satz (7% / 19%)",
+      "Eigenes Firmenlogo frei auf der Rechnung positionieren",
+      "Automatisches Backup alle 5 Minuten lokal und ins Dokumente-Verzeichnis",
+      "Automatische Updates - Daten und Einstellungen bleiben erhalten",
+      "14-tägige Testversion mit vollem Funktionsumfang — keine Kreditkarte nötig"
+    ]
+  },
+  {
+    "version": "Website Update",
+    "date": "2026-06-21",
+    "changelog": [
+      "Website überarbeitet"
+    ]
+  },
+  {
+    "version": "Update: 0.0.6",
+    "date": "2026-05-07",
+    "changelog": [
+      "Verbesserung: Datenbank migration abgeschlossen"
+    ]
+  },
+  {
+    "version": "Update: 0.0.5",
+    "date": "2026-05-03",
+    "changelog": [
+      "Neu: Logo-Editor: Position, Größe und Transparenz per Drag & Drop direkt auf der Rechnung",
+      "Neu: FAQ-Bereich",
+      "Neu: Menü-System",
+      "Verbesserung: PDF-Vorschau überarbeitet (entspricht jetzt dem finalen Dokument)"
+    ]
+  },
+  {
+    "version": "Website Update",
+    "date": "2026-05-01",
+    "changelog": [
+      "Website in einzelne Seite aufgegliedert"
+    ]
+  },
+  {
+    "version": "Website Update",
+    "date": "2026-04-30",
+    "changelog": [
+      "News Seite hinzugefügt",
+      "Kontaktformular eingebaut"
+    ]
+  },
+  {
+    "version": "Update: 0.0.4",
+    "date": "2026-04-28",
+    "changelog": [
+      "Branding Logo aktualisiert",
+      "Demo-Schutz eingebaut",
+      "PDF-Export optimiert",
+      "Infrastruktur Update",
+      "Performance verbessert"
+    ]
+  },
+  {
+    "version": "Update: 0.0.3",
+    "date": "2026-04-24",
+    "changelog": [
+      "MwSt Berechnung gefixt",
+      "PDF-Rechnungen verbessert"
+    ]
+  },
+  {
+    "version": "Update: 0.0.2",
+    "date": "2026-04-22",
+    "changelog": [
+      "IBAN-Check eingefügt",
+      "System stabilisiert"
+    ]
+  },
+  {
+    "version": "Update: 0.0.1",
+    "date": "2026-04-17",
+    "changelog": [
+      "BETA-Release"
+    ]
+  }
 ]
