@@ -1,6 +1,13 @@
 [
   {
     "version": "Website Update",
+    "date": "2026-09-29",
+    "changelog": [
+      "AGB / Nutzungsbedingungen aktualisiert"
+    ]
+  },
+  {
+    "version": "Website Update",
     "date": "2026-08-23",
     "changelog": [
       "Startseite und Seite Funktionen überarbeitet"
