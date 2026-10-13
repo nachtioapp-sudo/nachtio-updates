@@ -1,5 +1,22 @@
 [
   {
+    "version": "Update: 1.2.1",
+    "date": "2026-10-13",
+    "changelog": [
+      "🆕 NEU",
+      "Anzahlung: Nach „Übernehmen“ kommt die Rückfrage „Alle Anzahlungen eingetragen?“ mit Auflistung. Bearbeiten und Löschen sind jetzt zwei klare Buttons mit Auswahlfenster und Sicherheitsfrage; jedes Fenster hat Abbrechen und ✕. Die Anzahlungen werden nach Datum nummeriert",
+      "Personen: Bei Kindern kann statt des Alters der Jahrgang (Geburtsjahr) eingegeben werden. Der Kurbeitrag wird danach berechnet. Altersgrenzen für Preis und Kurbeitrag stehen jetzt ausdrücklich dabei",
+      "🔧 VERBESSERUNGEN",
+      "Updatesystem verbessert",
+      "Ticketsystem verbessert",
+      "Einstellungen speichern nur noch die geänderten Felder; Wohnungen, Preise und Nummernkreis können nicht mehr versehentlich überschrieben werden",
+      "Quartalsbericht: CSV mit Netto, MwSt je Satz, Kurtaxe und Brutto; stornierte Aufenthalte zählen nicht in die Nächte",
+      "Kalender: Wechseltage gelten nicht mehr als Doppelbuchung; iCal-Abruf nur noch von öffentlichen Adressen",
+      "🐛 FEHLERBEHEBUNGEN",
+      "Fehler behoben und Stabilität verbessert."
+    ]
+  },
+  {
     "version": "Update: 1.2.0",
     "date": "2026-10-02",
     "changelog": [

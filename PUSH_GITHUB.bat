@@ -10,20 +10,83 @@ echo   NACHTIO - GitHub Upload
 echo  ====================================================
 echo.
 
+:: Sicherheitspruefung braucht Node.js und nachtio-release.js (im selben Ordner)
+node --version >nul 2>&1
+if errorlevel 1 goto nonode
+if not exist nachtio-release.js goto noscript
+
 echo  Was moechtest du hochladen?
 echo.
 echo  [1] Nachtio-Setup.exe  (neuer Installer)
 echo  [2] version.json       (Versionsnummer + Changelog)
 echo  [3] changelog.json     (News-Seite Website)
 echo  [4] Alles hochladen
+echo  [5] Nur pruefen (nichts hochladen)
 echo.
-set /p choice="Auswahl (1-4): "
+set /p choice="Auswahl (1-5): "
 
-if "%choice%"=="1" goto installer
-if "%choice%"=="2" goto version
-if "%choice%"=="3" goto changelog
-if "%choice%"=="4" goto alles
+if "%choice%"=="1" goto pre_installer
+if "%choice%"=="2" goto pre_version
+if "%choice%"=="3" goto pre_changelog
+if "%choice%"=="4" goto pre_alles
+if "%choice%"=="5" goto nurpruefen
 echo  [FEHLER] Ungueltige Auswahl!
+pause & exit /b 1
+
+:: ---------- Pruefung vor dem Hochladen ----------
+:: Installer/Version/Alles: Pruefsumme in version.json muss zur Nachtio-Setup.exe passen.
+:: Ohne gueltige Pruefsumme installiert die App kein Update - deshalb wird dann gar nicht erst hochgeladen.
+:pre_installer
+set NEXT=installer
+goto precheck_full
+:pre_version
+set NEXT=version
+goto precheck_full
+:pre_alles
+set NEXT=alles
+goto precheck_full
+:pre_changelog
+set NEXT=changelog
+node nachtio-release.js check changelog
+goto checkresult
+
+:precheck_full
+echo.
+echo  [INFO] Pruefe Installer, version.json und changelog.json...
+node nachtio-release.js check
+
+:checkresult
+if errorlevel 3 goto prefail
+if errorlevel 2 goto prewarn
+if errorlevel 1 goto prefail
+goto %NEXT%
+
+:prewarn
+echo.
+set /p cont="  Es gibt Warnungen. Trotzdem hochladen? (J/N): "
+if /i "%cont%"=="J" goto %NEXT%
+echo  Abgebrochen - es wurde nichts hochgeladen.
+pause & exit /b 1
+
+:prefail
+echo.
+echo  [STOPP] Pruefung fehlgeschlagen - es wurde NICHTS hochgeladen.
+echo  Tipp: Nach einem neuen Build zuerst HASH_ERZEUGEN.bat ausfuehren.
+pause & exit /b 1
+
+:nurpruefen
+echo.
+node nachtio-release.js check
+echo.
+pause & exit /b 0
+
+:nonode
+echo  [FEHLER] Node.js nicht gefunden - ohne Pruefung wird nichts hochgeladen!
+echo  Bitte installieren: https://nodejs.org
+pause & exit /b 1
+
+:noscript
+echo  [FEHLER] nachtio-release.js fehlt in diesem Ordner - ohne Pruefung wird nichts hochgeladen!
 pause & exit /b 1
 
 :installer

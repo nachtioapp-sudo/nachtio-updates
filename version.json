@@ -1,31 +1,18 @@
 {
-  "version": "1.2.0",
-  "htmlUrl": "https://media.githubusercontent.com/media/nachtioapp-sudo/nachtio-updates/main/core.html",
+  "version": "1.2.1",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
-    "changelog": [
-      "🆕 NEU",
-      "Support direkt in der App: Fragen und Probleme lassen sich jetzt aus Nachtio heraus melden. Antworten erscheinen live in der App, auf Wunsch zusätzlich per E-Mail. Der komplette Verlauf ist einsehbar, das Ticket lässt sich selbst schließen, und bei einem behobenen Fehler wird nachgefragt, ob alles wieder funktioniert",
-      "Storno-Beleg: Beim kompletten Storno bleibt die ursprüngliche Rechnung erhalten und wird als „Storniert“ markiert. Zusätzlich entsteht ein eigener Storno-Beleg mit eigener Nummer (ST-RE-…) für den Gast, inklusive aller Anzahlungen und dem Ausgleich durch die Stornierung. Die Tourismusabgabe entfällt dabei und wird in keinem Bericht mehr mitgezählt",
-      "Mehrere Anzahlungen / Abschläge: Jede Anzahlung wird mit eigenem Datum erfasst und lässt sich bearbeiten oder löschen, auch direkt während der Rechnungserstellung. Übersteigen die Anzahlungen den Rechnungsbetrag, wird der Erstattungsbetrag an den Gast ausgewiesen",
-      "Preisvergleich bei der Stornobearbeitung: Bereits erstellte Rechnungen behalten ihren ursprünglichen Stand (Preise, Pauschalen, Steuersätze). Im Preisvergleich lässt sich gezielt entscheiden, ob alte oder aktuelle Werte gelten sollen",
-      "Unterkünfte lassen sich direkt umbenennen",
-      "Angebote tragen ihre laufende Nummer jetzt auch auf der PDF (Angebot-001, …)",
-      "Pauschalen: Hinweis zum Steuersatz beim Anlegen, bei Unsicherheit bitte den Steuerberater fragen. Löschen fragt jetzt vorher nach",
-      "E-Rechnung auch für Storno-Belege und Stornogebühr-Rechnungen",
-      "Rechnungsnummer und Ablageordner richten sich nach dem Rechnungsjahr; bei abweichendem Jahr gibt es vorher eine Rückfrage",
-      "Zusätzliche Prüfungen: IBAN-Kontrolle, Pflichtfelder bei Rechnungsadressen und eine Warnung bei Aufenthalten über 365 Nächte",
-      "🔧 VERBESSERUNGEN",
-      "Unterkunft hinzufügen: Preise der Preisgruppen sind jetzt sichtbar, die Fragen erscheinen der Reihe nach, Kurzaufenthalt ist nicht mehr vorausgewählt und das Fenster passt optisch zum Rest der App",
-      "Automatische Unterkunftsnamen beginnen wieder bei der ersten freien Nummer",
-      "Kontoinhaber: Im Einrichtungsassistenten (Bankverbindung) vorbelegt mit dem Vermieternamen und in den Einstellungen änderbar",
-      "Wohnungsbalken auf Startseite und in den Einstellungen lassen sich per Klick auf den gesamten Balken öffnen",
-      "Hinweis bei doppelten Unterkunftsnamen erscheint jetzt im Vordergrund",
-      "Rechnungsübersicht: Wohnungsnamen linksbündig, Preise rechtsbündig",
-      "Pauschalen-Seite: aufgeräumteres Layout, Preise linksbündig, Steuersätze sind immer aktuell",
-      "Teilabreise aktiviert die Firma-Karte automatisch wieder, falls sie zuvor deaktiviert wurde",
-      "Stornobearbeitung übernimmt Pauschalen mit den ursprünglichen Preisen und zeigt Abweichungen im Preisvergleich an",
-      "Quartalsbericht lädt immer den aktuellen Stand und führt stornierte Rechnungen ohne Tourismusabgabe",
-      "🐛 FEHLERBEHEBUNGEN",
-      "Mehrere Fehler behoben und Stabilität verbessert."
-	]
+  "installerSha256": "1c4af31212c6e4b80f1ed6f4bbd925c1e24ddce313e830b0b0dbfe4e3ac85b86",
+  "changelog": [
+    "🆕 NEU",
+    "Anzahlung: Nach „Übernehmen“ kommt die Rückfrage „Alle Anzahlungen eingetragen?“ mit Auflistung. Bearbeiten und Löschen sind jetzt zwei klare Buttons mit Auswahlfenster und Sicherheitsfrage; jedes Fenster hat Abbrechen und ✕. Die Anzahlungen werden nach Datum nummeriert",
+    "Personen: Bei Kindern kann statt des Alters der Jahrgang (Geburtsjahr) eingegeben werden. Der Kurbeitrag wird danach berechnet. Altersgrenzen für Preis und Kurbeitrag stehen jetzt ausdrücklich dabei",
+    "🔧 VERBESSERUNGEN",
+    "Updatesystem verbessert",
+    "Ticketsystem verbessert",
+    "Einstellungen speichern nur noch die geänderten Felder; Wohnungen, Preise und Nummernkreis können nicht mehr versehentlich überschrieben werden",
+    "Quartalsbericht: CSV mit Netto, MwSt je Satz, Kurtaxe und Brutto; stornierte Aufenthalte zählen nicht in die Nächte",
+    "Kalender: Wechseltage gelten nicht mehr als Doppelbuchung; iCal-Abruf nur noch von öffentlichen Adressen",
+    "🐛 FEHLERBEHEBUNGEN",
+    "Fehler behoben und Stabilität verbessert."
+  ]
 }
