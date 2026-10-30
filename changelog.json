@@ -1,5 +1,20 @@
 [
   {
+    "version": "Neues Video",
+    "date": "2026-10-30",
+    "changelog": [
+      "Nachtio Tutorial 1 – Einrichtung: neues Video auf YouTube",
+      "Schritt für Schritt von der Installation bis zur ersten Rechnung: https://www.youtube.com/watch?v=iV1STsOwyi4"
+    ]
+  },
+  {
+    "version": "Website Update",
+    "date": "2026-10-02",
+    "changelog": [
+      "Start- und Funktionenseite aktualisiert"
+    ]
+  },
+  {
     "version": "Update: 1.2.1",
     "date": "2026-10-13",
     "changelog": [
