@@ -1,17 +1,16 @@
 {
-  "version": "1.2.1",
+  "version": "1.3.0",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
-  "installerSha256": "1c4af31212c6e4b80f1ed6f4bbd925c1e24ddce313e830b0b0dbfe4e3ac85b86",
+  "installerSha256": "3dd36bf8780c5222ff1428abb5e347f3a89de7ef9e2d8a0784528dee6444cd36",
   "changelog": [
     "🆕 NEU",
-    "Anzahlung: Nach „Übernehmen“ kommt die Rückfrage „Alle Anzahlungen eingetragen?“ mit Auflistung. Bearbeiten und Löschen sind jetzt zwei klare Buttons mit Auswahlfenster und Sicherheitsfrage; jedes Fenster hat Abbrechen und ✕. Die Anzahlungen werden nach Datum nummeriert",
-    "Personen: Bei Kindern kann statt des Alters der Jahrgang (Geburtsjahr) eingegeben werden. Der Kurbeitrag wird danach berechnet. Altersgrenzen für Preis und Kurbeitrag stehen jetzt ausdrücklich dabei",
+    "Gästekartei mit Verlauf, Aufenthalten und Stammgast-Kennzeichnung; Mitreisende, Geburtsdatum oder Jahrgang (freiwillig), Auskunft als PDF und Anonymisieren",
+    "Datensicherung: verschlüsselte ZIP-Datei, automatische Sicherungen, zusätzlicher Speicherort",
+    "Kalender: Wechseltage als zwei Hälften, Abfrage bei vorhandenem Angebot, Filter und Suche im Kalender-Menü",
     "🔧 VERBESSERUNGEN",
-    "Updatesystem verbessert",
-    "Ticketsystem verbessert",
-    "Einstellungen speichern nur noch die geänderten Felder; Wohnungen, Preise und Nummernkreis können nicht mehr versehentlich überschrieben werden",
-    "Quartalsbericht: CSV mit Netto, MwSt je Satz, Kurtaxe und Brutto; stornierte Aufenthalte zählen nicht in die Nächte",
-    "Kalender: Wechseltage gelten nicht mehr als Doppelbuchung; iCal-Abruf nur noch von öffentlichen Adressen",
+    "FAQ komplett neu geschrieben, durchgehend Ansprache mit „Sie“",
+    "Programmfenster im Nachtio-Design, Menüleiste entfällt",
+    "Vor jedem Update wird automatisch eine geprüfte Sicherung erstellt",
     "🐛 FEHLERBEHEBUNGEN",
     "Fehler behoben und Stabilität verbessert."
   ]
