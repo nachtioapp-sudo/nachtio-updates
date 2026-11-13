@@ -1,7 +1,7 @@
 {
   "version": "1.3.0",
   "installerUrl": "https://github.com/nachtioapp-sudo/nachtio-updates/raw/main/Nachtio-Setup.exe",
-  "installerSha256": "3dd36bf8780c5222ff1428abb5e347f3a89de7ef9e2d8a0784528dee6444cd36",
+  "installerSha256": "6097c7fa27efe83d70ec206a3f06e7b88f442f855c0e9ed7c1f1fc932e57af61",
   "changelog": [
     "🆕 NEU",
     "Gästekartei mit Verlauf, Aufenthalten und Stammgast-Kennzeichnung; Mitreisende, Geburtsdatum oder Jahrgang (freiwillig), Auskunft als PDF und Anonymisieren",
